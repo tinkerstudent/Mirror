@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="wrap_content"
+    p1:layout_height="wrap_content"
+    p1:id="@+id/gridLayout1"
+    p1:columnCount="3"
+    p1:rowCount="7">
+    <Button
+        p1:text="LOAD TRNG SET"
+        p1:id="@+id/loadTrngSet"
+        p1:width="150dp"
+        p1:layout_row="0"
+        p1:layout_column="0" />
+    <Button
+        p1:text="PREV"
+        p1:id="@+id/loadTrngSetPrev"
+        p1:layout_row="0"
+        p1:layout_column="1" />
+    <Button
+        p1:text="NEXT"
+        p1:id="@+id/loadTrngSetNext"
+        p1:layout_row="0"
+        p1:layout_column="2" />
+    <VideoView
+        p1:id="@+id/loadTrngSetVideo"
+        p1:layout_width="150dp"
+        p1:layout_height="150dp"
+        p1:layout_row="1"
+        p1:layout_column="0" />
+    <EditText
+        p1:id="@+id/loadTrngSetLabel"
+        p1:text="&lt;LABEL&gt;"
+        p1:layout_row="2"
+        p1:layout_column="0"
+        p1:layout_columnSpan="1"
+        p1:layout_width="150dp" />
+    <Button
+        p1:text="PREV"
+        p1:id="@+id/loadTestSetPrev"
+        p1:layout_row="3"
+        p1:layout_column="1" />
+    <Button
+        p1:text="NEXT"
+        p1:id="@+id/loadTestSetNext"
+        p1:layout_row="3"
+        p1:layout_column="2" />
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:id="@+id/loadTestSetImage"
+        p1:layout_width="150dp"
+        p1:layout_height="150dp" />
+    <Button
+        p1:text="LOAD TEST SET"
+        p1:id="@+id/loadTestSet"
+        p1:width="150dp"
+        p1:layout_row="3"
+        p1:layout_column="0" />
+    <EditText
+        p1:id="@+id/loadTestSetLabel"
+        p1:layout_row="5"
+        p1:layout_column="0"
+        p1:width="150dp"
+        p1:text="&lt;LABEL&gt;" />
+    <TextView
+        p1:text="&lt;ID&gt;"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/loadTrngSetId"
+        p1:layout_row="1"
+        p1:layout_column="1"
+        p1:width="150dp"
+        p1:layout_columnSpan="2" />
+    <TextView
+        p1:text="&lt;ACTUAL LBL&gt;"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/loadTestSetActualLbl"
+        p1:layout_row="6"
+        p1:width="150dp"
+        p1:layout_column="0" />
+    <TextView
+        p1:text="&lt;ID&gt;"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/loadTestSetId"
+        p1:layout_row="4"
+        p1:width="150dp"
+        p1:layout_column="1"
+        p1:layout_columnSpan="2" />
+    <Button
+        p1:text="TEST"
+        p1:id="@+id/loadTestSetTest"
+        p1:layout_row="5"
+        p1:layout_column="1" />
+    <Button
+        p1:text="TRAIN"
+        p1:id="@+id/loadTrngSetTrain"
+        p1:layout_row="2"
+        p1:layout_column="1" />
+</GridLayout>
